@@ -10,6 +10,8 @@ import (
 	"github.com/wavesplatform/gowaves/pkg/util/common"
 )
 
+const invokeCallComplexityV5 = 75
+
 var (
 	errDeletedEntry = errors.New("entry has been deleted")
 )
@@ -1081,6 +1083,7 @@ type EvaluationEnvironment struct {
 	ver                   ast.LibraryVersion
 	validatePaymentsAfter uint64
 	isBlockV5Activated    bool
+	isRiveV5Activated     bool
 	isRiveV6Activated     bool
 	isProtobufTransaction bool
 	mds                   int
@@ -1106,6 +1109,7 @@ func NewEnvironmentWithWrappedState(
 	payments proto.ScriptPayments,
 	sender proto.WavesAddress,
 	isBlockV5Activated bool,
+	isRideV5Activated bool,
 	isRideV6Activated bool,
 	isProtobufTransaction bool,
 	rootScriptLibVersion ast.LibraryVersion,
@@ -1172,6 +1176,7 @@ func NewEnvironmentWithWrappedState(
 		validatePaymentsAfter: env.validatePaymentsAfter,
 		mds:                   env.mds,
 		isBlockV5Activated:    isBlockV5Activated,
+		isRiveV5Activated:     isRideV5Activated,
 		isRiveV6Activated:     isRideV6Activated,
 		isProtobufTransaction: isProtobufTransaction,
 	}, nil
@@ -1179,6 +1184,10 @@ func NewEnvironmentWithWrappedState(
 
 func (e *EvaluationEnvironment) rideV6Activated() bool {
 	return e.isRiveV6Activated
+}
+
+func (e *EvaluationEnvironment) rideV5Activated() bool {
+	return e.isRiveV5Activated
 }
 
 func (e *EvaluationEnvironment) blockV5Activated() bool {
