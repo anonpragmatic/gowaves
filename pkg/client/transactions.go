@@ -158,6 +158,29 @@ func (a *Transactions) Address(ctx context.Context, address proto.WavesAddress, 
 	return out[0], response, nil
 }
 
+// AddressAfter gets list of transactions where specified address has been involved.
+func (a *Transactions) AddressAfter(ctx context.Context, address proto.WavesAddress, limit uint, after string) ([]proto.Transaction, *Response, error) {
+	url, err := joinUrl(a.options.BaseUrl, fmt.Sprintf("/transactions/address/%s/limit/%d?after=%s", address.String(), limit, after))
+	if err != nil {
+		return nil, nil, err
+	}
+
+	req, err := http.NewRequest("GET", url.String(), nil)
+	if err != nil {
+		return nil, nil, err
+	}
+
+	var out []TransactionsField
+	response, err := doHTTP(ctx, a.options, req, &out)
+	if err != nil {
+		return nil, response, err
+	}
+	if len(out) == 0 {
+		return nil, response, nil
+	}
+	return out[0], response, nil
+}
+
 // Broadcast a signed transaction
 func (a *Transactions) Broadcast(ctx context.Context, transaction proto.Transaction) (*Response, error) {
 	url, err := joinUrl(a.options.BaseUrl, "/transactions/broadcast")
