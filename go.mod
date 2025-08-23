@@ -1,4 +1,4 @@
-module github.com/wavesplatform/gowaves
+module github.com/anonpragmatic/gowaves
 
 go 1.24.0
 
