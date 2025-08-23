@@ -3,9 +3,9 @@ package compiler
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/compiler/stdlib"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/ride/compiler/stdlib"
 )
 
 func TestStackOneFrame(t *testing.T) {

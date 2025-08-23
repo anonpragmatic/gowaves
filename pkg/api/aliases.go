@@ -1,8 +1,8 @@
 package api
 
 import (
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 func (a *App) scheme() proto.Scheme {

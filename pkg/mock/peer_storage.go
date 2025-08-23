@@ -8,8 +8,8 @@ import (
 	reflect "reflect"
 	time "time"
 
+	storage "github.com/anonpragmatic/gowaves/pkg/node/peers/storage"
 	gomock "github.com/golang/mock/gomock"
-	storage "github.com/wavesplatform/gowaves/pkg/node/peers/storage"
 )
 
 // MockPeerStorage is a mock of PeerStorage interface.

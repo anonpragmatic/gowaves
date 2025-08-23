@@ -1,11 +1,11 @@
 package api
 
 import (
+	apiErrs "github.com/anonpragmatic/gowaves/pkg/api/errors"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/errs"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/pkg/errors"
-	apiErrs "github.com/wavesplatform/gowaves/pkg/api/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/errs"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 type ScriptDetails struct {

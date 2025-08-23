@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const maxMessageLength = 32 * 1024

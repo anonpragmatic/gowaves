@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wavesplatform/gowaves/pkg/consensus"
-	"github.com/wavesplatform/gowaves/pkg/types"
+	"github.com/anonpragmatic/gowaves/pkg/consensus"
+	"github.com/anonpragmatic/gowaves/pkg/types"
 )
 
 func TestCalculateBaseTarget(t *testing.T) {

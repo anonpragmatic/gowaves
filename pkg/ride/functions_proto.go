@@ -14,13 +14,13 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/wavesplatform/gowaves/pkg/consensus"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/keyvalue"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	c2 "github.com/wavesplatform/gowaves/pkg/ride/crypto"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/consensus"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/keyvalue"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	c2 "github.com/anonpragmatic/gowaves/pkg/ride/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 const (

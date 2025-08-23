@@ -10,10 +10,10 @@ import (
 	"github.com/umbracle/fastrlp"
 	"go.uber.org/atomic"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/errs"
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	"github.com/wavesplatform/gowaves/pkg/proto/ethabi"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/errs"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	"github.com/anonpragmatic/gowaves/pkg/proto/ethabi"
 )
 
 // EthereumGasPrice is a constant GasPrice which equals 10GWei according to the specification

@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
 
 	"github.com/mr-tron/base58/base58"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/libs/serializer"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/libs/serializer"
 )
 
 func TestOrderType_String(t *testing.T) {

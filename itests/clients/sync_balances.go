@@ -1,8 +1,8 @@
 package clients
 
 import (
-	"github.com/wavesplatform/gowaves/itests/config"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type NodesWavesBalance struct {

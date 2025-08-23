@@ -3,7 +3,7 @@ package retransmit
 import (
 	"sync"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const idSize = 16

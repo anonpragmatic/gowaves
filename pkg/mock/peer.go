@@ -7,10 +7,10 @@ package mock
 import (
 	reflect "reflect"
 
+	conn "github.com/anonpragmatic/gowaves/pkg/p2p/conn"
+	peer "github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	proto "github.com/anonpragmatic/gowaves/pkg/proto"
 	gomock "github.com/golang/mock/gomock"
-	conn "github.com/wavesplatform/gowaves/pkg/p2p/conn"
-	peer "github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	proto "github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 // MockPeer is a mock of Peer interface.

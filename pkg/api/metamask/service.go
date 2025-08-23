@@ -10,16 +10,16 @@ import (
 	"github.com/pkg/errors"
 	"github.com/semrush/zenrpc/v2"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/errs"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/node/messages"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/proto/ethabi"
-	"github.com/wavesplatform/gowaves/pkg/services"
-	"github.com/wavesplatform/gowaves/pkg/state"
-	"github.com/wavesplatform/gowaves/pkg/state/stateerr"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/errs"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/node/messages"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto/ethabi"
+	"github.com/anonpragmatic/gowaves/pkg/services"
+	"github.com/anonpragmatic/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/state/stateerr"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 type nodeRPCApp struct {

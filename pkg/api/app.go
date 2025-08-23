@@ -7,14 +7,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/miner/scheduler"
-	"github.com/wavesplatform/gowaves/pkg/node/messages"
-	"github.com/wavesplatform/gowaves/pkg/node/peers"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/services"
-	"github.com/wavesplatform/gowaves/pkg/state"
-	"github.com/wavesplatform/gowaves/pkg/types"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/miner/scheduler"
+	"github.com/anonpragmatic/gowaves/pkg/node/messages"
+	"github.com/anonpragmatic/gowaves/pkg/node/peers"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/services"
+	"github.com/anonpragmatic/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/types"
 )
 
 type account struct {

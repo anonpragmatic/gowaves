@@ -1,11 +1,11 @@
 package testdata
 
 import (
+	"github.com/anonpragmatic/gowaves/itests/config"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/itests/config"
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 const (

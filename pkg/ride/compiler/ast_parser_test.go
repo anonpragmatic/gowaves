@@ -15,9 +15,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/client"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/ride/serialization"
+	"github.com/anonpragmatic/gowaves/pkg/client"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/serialization"
 )
 
 func parseBase64Script(t *testing.T, src string) *ast.Tree {

@@ -3,7 +3,7 @@ package compiler
 import (
 	"strings"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/compiler/stdlib"
+	"github.com/anonpragmatic/gowaves/pkg/ride/compiler/stdlib"
 )
 
 type frame struct {

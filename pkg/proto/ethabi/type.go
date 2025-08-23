@@ -3,8 +3,8 @@ package ethabi
 import (
 	"fmt"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
 )
 
 var UnsupportedType = errors.New("unsupported type")

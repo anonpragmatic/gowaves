@@ -3,9 +3,9 @@ package signatures
 import (
 	"log/slog"
 
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	storage "github.com/wavesplatform/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	storage "github.com/anonpragmatic/gowaves/pkg/state"
 )
 
 // from small to big by height

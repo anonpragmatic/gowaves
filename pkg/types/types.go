@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 type Scheduler interface {

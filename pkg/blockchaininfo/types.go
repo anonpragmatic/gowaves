@@ -8,11 +8,11 @@ import (
 	"slices"
 	"sync"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/ccoveille/go-safecast"
 	"github.com/nats-io/nats.go"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 var ErrNotInCache = errors.New("the target height is not in cache")

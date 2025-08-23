@@ -22,11 +22,11 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/xenolf/lego/log"
 
-	"github.com/wavesplatform/gowaves/cmd/wmd/internal/data"
-	"github.com/wavesplatform/gowaves/cmd/wmd/internal/state"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/cmd/wmd/internal/data"
+	"github.com/anonpragmatic/gowaves/cmd/wmd/internal/state"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const (

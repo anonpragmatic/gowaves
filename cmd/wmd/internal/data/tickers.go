@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 )
 
 type AssetID crypto.Digest

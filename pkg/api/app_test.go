@@ -3,8 +3,8 @@ package api
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/services"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/services"
 )
 
 func TestAppAuth(t *testing.T) {

@@ -58,7 +58,7 @@ func TestClient_Do(t *testing.T) {
 }
 
 func TestMockHttpRequest(t *testing.T) {
-	url := "https://github.com/wavesplatform/gowaves"
+	url := "https://github.com/anonpragmatic/gowaves"
 	req, err := http.NewRequest("GET", url, nil)
 	require.Nil(t, err)
 	req.Header.Set("ApiKey", "123456")

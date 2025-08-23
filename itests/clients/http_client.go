@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/itests/config"
-	d "github.com/wavesplatform/gowaves/itests/docker"
-	"github.com/wavesplatform/gowaves/pkg/client"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	d "github.com/anonpragmatic/gowaves/itests/docker"
+	"github.com/anonpragmatic/gowaves/pkg/client"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type HTTPClient struct {

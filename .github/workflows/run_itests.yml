@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: "${{ inputs.environment }}" # use the environment name from the input
-    if: (github.repository == 'wavesplatform/gowaves')
+    if: (github.repository == 'anonpragmatic/gowaves')
     env:
       MAKEFILE_TARGET: "${{ inputs.itest-type }}" # type of integration test equal to the makefile target
 

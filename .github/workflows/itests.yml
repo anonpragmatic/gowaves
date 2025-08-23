@@ -17,7 +17,7 @@ jobs:
   itest-check:
     name: integration_tests_run_check
     runs-on: ubuntu-latest
-    if: (github.repository == 'wavesplatform/gowaves')
+    if: (github.repository == 'anonpragmatic/gowaves')
     outputs:
       can-run-itest: ${{ steps.set-output.outputs.CAN_RUN_ITEST }}
     steps:
@@ -63,7 +63,7 @@ jobs:
   itest:
     name: integration_tests
     needs: [ itest-check ]
-    if: (needs.itest-check.outputs.can-run-itest == 'true' && github.repository == 'wavesplatform/gowaves')
+    if: (needs.itest-check.outputs.can-run-itest == 'true' && github.repository == 'anonpragmatic/gowaves')
     uses: "./.github/workflows/run_itests.yml"
     with:
       itest-type: 'itest' # run full set of integration tests

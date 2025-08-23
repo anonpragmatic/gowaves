@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/wavesplatform/gowaves/pkg/versioning"
+	"github.com/anonpragmatic/gowaves/pkg/versioning"
 )
 
 type nodeVersion struct {

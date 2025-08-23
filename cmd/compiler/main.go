@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/compiler"
+	"github.com/anonpragmatic/gowaves/pkg/ride/compiler"
 )
 
 var usage = `

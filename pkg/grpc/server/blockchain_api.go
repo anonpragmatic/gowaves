@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
-	"github.com/wavesplatform/gowaves/pkg/settings"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
 )
 
 // allFeatures combines blockchain features from state with features

@@ -3,9 +3,9 @@ package client
 import (
 	"strconv"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 type DataEntries = proto.DataEntries

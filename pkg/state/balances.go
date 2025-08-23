@@ -11,12 +11,12 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/keyvalue"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/settings"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/keyvalue"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 const (

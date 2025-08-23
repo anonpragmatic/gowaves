@@ -9,12 +9,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
 
 	"github.com/gorilla/mux"
 
-	"github.com/wavesplatform/gowaves/cmd/retransmitter/retransmit/utils"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/cmd/retransmitter/retransmit/utils"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const defaultTimeout = 30 * time.Second

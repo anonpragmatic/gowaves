@@ -3,11 +3,11 @@ package server
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	pb "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	pb "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 const (

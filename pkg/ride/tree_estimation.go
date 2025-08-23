@@ -3,8 +3,8 @@ package ride
 import (
 	"encoding/base64"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
 )
 
 type TreeEstimation struct {

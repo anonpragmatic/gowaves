@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/suite"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 const (

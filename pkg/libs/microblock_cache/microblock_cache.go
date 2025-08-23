@@ -1,8 +1,8 @@
 package microblock_cache
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/util/fifo_cache"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/util/fifo_cache"
 )
 
 const microBlockCacheSize = 24

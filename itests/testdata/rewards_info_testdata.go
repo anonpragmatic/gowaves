@@ -1,8 +1,8 @@
 package testdata
 
 import (
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type RewardDistributionApiTestData[T any] struct {

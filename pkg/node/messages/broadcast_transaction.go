@@ -1,6 +1,6 @@
 package messages
 
-import "github.com/wavesplatform/gowaves/pkg/proto"
+import "github.com/anonpragmatic/gowaves/pkg/proto"
 
 type BroadcastTransaction struct {
 	Response    chan error

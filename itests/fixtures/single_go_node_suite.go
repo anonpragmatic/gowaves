@@ -7,10 +7,10 @@ import (
 	"github.com/stoewer/go-strcase"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/wavesplatform/gowaves/itests/clients"
-	"github.com/wavesplatform/gowaves/itests/config"
-	d "github.com/wavesplatform/gowaves/itests/docker"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/itests/clients"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	d "github.com/anonpragmatic/gowaves/itests/docker"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type SingleGoNodeSuite struct {

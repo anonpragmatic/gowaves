@@ -1,7 +1,7 @@
 package fixtures
 
 import (
-	"github.com/wavesplatform/gowaves/itests/config"
+	"github.com/anonpragmatic/gowaves/itests/config"
 )
 
 const (

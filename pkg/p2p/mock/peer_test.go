@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
 )
 
 func TestCompile(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"github.com/cosmos/go-bip39"
 	"github.com/howeyc/gopass"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/wallet"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/wallet"
 )
 
 const (

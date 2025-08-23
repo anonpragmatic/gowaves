@@ -15,12 +15,12 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/wavesplatform/gowaves/itests/config"
-	"github.com/wavesplatform/gowaves/pkg/client"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	"github.com/anonpragmatic/gowaves/pkg/client"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const defaultTimeout = 30 * time.Second

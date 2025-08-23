@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wavesplatform/gowaves/cmd/retransmitter/retransmit"
-	"github.com/wavesplatform/gowaves/cmd/retransmitter/retransmit/utils"
-	"github.com/wavesplatform/gowaves/pkg/p2p/mock"
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/util/byte_helpers"
+	"github.com/anonpragmatic/gowaves/cmd/retransmitter/retransmit"
+	"github.com/anonpragmatic/gowaves/cmd/retransmitter/retransmit/utils"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/mock"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/util/byte_helpers"
 )
 
 // check if first connected peer sends new transaction, then second receive

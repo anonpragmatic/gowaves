@@ -1,8 +1,8 @@
 package state
 
 import (
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
 )
 
 type element struct {

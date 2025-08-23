@@ -20,7 +20,7 @@ jobs:
   golangci:
     name: lint
     runs-on: ${{ matrix.os }}
-    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != 'wavesplatform/gowaves'
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != 'anonpragmatic/gowaves'
     strategy:
       matrix:
         os: [ macos-latest, windows-latest, ubuntu-latest ]
@@ -56,7 +56,7 @@ jobs:
   build:
     name: ubuntu
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != 'wavesplatform/gowaves'
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != 'anonpragmatic/gowaves'
 
     steps:
       - name: Check out code into the Go module directory
@@ -83,7 +83,7 @@ jobs:
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@fdcc8476540edceab3de004e990f80d881c6cc00 # v5
-        if: github.repository == 'wavesplatform/gowaves' # disable for forks
+        if: github.repository == 'anonpragmatic/gowaves' # disable for forks
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.txt
@@ -93,7 +93,7 @@ jobs:
   smoke:
     name: smoke_tests
     if: ${{ (github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' && github.event.inputs.smoke_tests) &&
-      github.repository == 'wavesplatform/gowaves'}}
+      github.repository == 'anonpragmatic/gowaves'}}
     uses: "./.github/workflows/run_itests.yml"
     with:
       itest-type: 'smoke'

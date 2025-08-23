@@ -5,7 +5,7 @@ import (
 	"maps"
 	"strconv"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 )
 
 var funcsByVersion = mustLoadFuncs()

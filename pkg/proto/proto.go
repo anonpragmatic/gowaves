@@ -18,9 +18,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/valyala/bytebufferpool"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/util/collect_writes"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/util/collect_writes"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 /*

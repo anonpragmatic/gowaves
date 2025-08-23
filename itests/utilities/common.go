@@ -20,20 +20,20 @@ import (
 	"testing"
 	"time"
 
+	ridec "github.com/anonpragmatic/gowaves/pkg/ride/compiler"
 	"github.com/mr-tron/base58/base58"
 	pkgerr "github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
-	ridec "github.com/wavesplatform/gowaves/pkg/ride/compiler"
 
-	"github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	"github.com/wavesplatform/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
 
-	"github.com/wavesplatform/gowaves/itests/config"
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/pkg/client"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/pkg/client"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const (

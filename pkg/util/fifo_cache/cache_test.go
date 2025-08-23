@@ -3,8 +3,8 @@ package fifo_cache_test
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/util/fifo_cache"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/util/fifo_cache"
 )
 
 type impl struct {

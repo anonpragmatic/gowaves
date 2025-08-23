@@ -1,8 +1,8 @@
 package proto
 
 import (
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 	"github.com/mr-tron/base58"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
 )
 
 const (

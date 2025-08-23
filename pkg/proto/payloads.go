@@ -10,7 +10,7 @@ import (
 
 	"github.com/ccoveille/go-safecast"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 )
 
 type payloadTag interface {

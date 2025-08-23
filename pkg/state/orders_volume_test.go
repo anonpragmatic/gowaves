@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
 )
 
 type ordersVolumesStorageObjects struct {

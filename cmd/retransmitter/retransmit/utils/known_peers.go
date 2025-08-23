@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const defaultInterval = 5 * time.Minute

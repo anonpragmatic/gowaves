@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 )
 
 func serializeDAppV2(s *serializer, tree *ast.Tree) error {

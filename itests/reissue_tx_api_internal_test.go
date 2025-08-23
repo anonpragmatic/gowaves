@@ -8,13 +8,13 @@ import (
 	"net/http"
 	"testing"
 
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/itests/testdata"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
+	"github.com/anonpragmatic/gowaves/itests/utilities/issue"
+	"github.com/anonpragmatic/gowaves/itests/utilities/reissue"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 	"github.com/stretchr/testify/suite"
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/itests/testdata"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
-	"github.com/wavesplatform/gowaves/itests/utilities/issue"
-	"github.com/wavesplatform/gowaves/itests/utilities/reissue"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
 )
 
 type ReissueTxAPIPositiveSuite struct {

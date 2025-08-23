@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type BlocksImporter struct {

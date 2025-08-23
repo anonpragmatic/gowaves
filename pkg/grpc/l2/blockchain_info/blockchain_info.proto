@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package blockchain_info;
-option go_package = "github.com/wavesplatform/gowaves/pkg/grpc/l2/blockchain_info";
+option go_package = "github.com/anonpragmatic/gowaves/pkg/grpc/l2/blockchain_info";
 
 import "waves/transaction.proto";
 import "waves/block.proto";

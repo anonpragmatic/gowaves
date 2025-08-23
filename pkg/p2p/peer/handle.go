@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/valyala/bytebufferpool"
 
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 func bytesToMessage(data []byte, resendTo chan ProtoMessage, p Peer, logger *slog.Logger) error {

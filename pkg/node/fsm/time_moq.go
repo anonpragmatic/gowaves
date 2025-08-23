@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/types"
+	"github.com/anonpragmatic/gowaves/pkg/types"
 )
 
 // Ensure, that MockTime does implement types.Time.

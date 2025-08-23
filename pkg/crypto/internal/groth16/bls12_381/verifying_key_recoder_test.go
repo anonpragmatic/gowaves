@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	bls12381 "github.com/wavesplatform/gowaves/pkg/crypto/internal/groth16/bls12_381"
+	bls12381 "github.com/anonpragmatic/gowaves/pkg/crypto/internal/groth16/bls12_381"
 )
 
 func TestVerifyingKeyRecoding(t *testing.T) {

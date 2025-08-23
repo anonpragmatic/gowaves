@@ -4,7 +4,7 @@
 package consensus
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"sync"
 )
 

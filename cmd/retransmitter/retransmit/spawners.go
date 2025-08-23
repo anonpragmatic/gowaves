@@ -5,10 +5,10 @@ import (
 	"log/slog"
 	"net"
 
-	"github.com/wavesplatform/gowaves/cmd/retransmitter/retransmit/network"
-	"github.com/wavesplatform/gowaves/pkg/p2p/conn"
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/cmd/retransmitter/retransmit/network"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/conn"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type PeerSpawner interface {

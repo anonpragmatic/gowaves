@@ -16,12 +16,12 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/wavesplatform/gowaves/cmd/blockcmp/internal"
-	"github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	"github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/cmd/blockcmp/internal"
+	"github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	"github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
 )
 
 type report struct {

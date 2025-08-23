@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	ridec "github.com/wavesplatform/gowaves/pkg/ride/compiler"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	ridec "github.com/anonpragmatic/gowaves/pkg/ride/compiler"
 )
 
 func TestGetType(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"crypto/rsa"
 	sh256 "crypto/sha256"
 	"crypto/x509"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	c2 "github.com/anonpragmatic/gowaves/pkg/ride/crypto"
 	"github.com/consensys/gnark-crypto/ecc"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	c2 "github.com/wavesplatform/gowaves/pkg/ride/crypto"
 )
 
 func bls12Groth16Verify_1(env environment, args ...rideType) (rideType, error) {

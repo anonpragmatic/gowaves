@@ -9,7 +9,7 @@ permissions: { }
 jobs:
   itest-race:
     name: integration_tests_with_race_detector
-    if: (github.repository == 'wavesplatform/gowaves')
+    if: (github.repository == 'anonpragmatic/gowaves')
     uses: "./.github/workflows/run_itests.yml"
     with:
       itest-type: 'itest-race'

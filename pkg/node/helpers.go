@@ -5,10 +5,10 @@ import (
 	"hash/maphash"
 	"sync"
 
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/state"
-	"github.com/wavesplatform/gowaves/pkg/types"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/types"
 )
 
 const (

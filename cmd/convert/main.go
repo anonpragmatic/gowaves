@@ -9,7 +9,7 @@ import (
 	"os"
 	"unicode"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const inputFileSizeLimit = 10 * 1024 * 1024

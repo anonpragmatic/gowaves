@@ -3,10 +3,10 @@ package ordered_blocks_test
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/libs/ordered_blocks"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/libs/ordered_blocks"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 var sig1 = crypto.MustSignatureFromBase58("31jt6L3pDU2mkow3kDK7kUZjQbqJsMnE5gC6As7Cz27xjqAaZpiNqopf6NJWbtwrV9VcjShKFfhgLmjpr8Ybuv41")

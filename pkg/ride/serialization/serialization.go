@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"strconv"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
 )
 
 func SerializeTreeV1(tree *ast.Tree) ([]byte, error) {

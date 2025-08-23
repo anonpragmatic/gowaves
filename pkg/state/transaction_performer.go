@@ -1,6 +1,6 @@
 package state
 
-import "github.com/wavesplatform/gowaves/pkg/proto"
+import "github.com/anonpragmatic/gowaves/pkg/proto"
 
 // transactionPerformer is a temporary interface for compatibility with legacy code.
 // It builds txSnapshot for each proto.Transaction type.

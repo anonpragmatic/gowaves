@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 
+	"github.com/anonpragmatic/gowaves/pkg/errs"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/errs"
 )
 
 type diffApplier struct {

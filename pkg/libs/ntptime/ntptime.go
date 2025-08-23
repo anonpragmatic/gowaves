@@ -8,7 +8,7 @@ import (
 
 	"github.com/beevik/ntp"
 
-	"github.com/wavesplatform/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
 )
 
 type inner interface {

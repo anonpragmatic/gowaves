@@ -3,7 +3,7 @@ package ride
 import (
 	"fmt"
 
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 type complexityCalculator interface {

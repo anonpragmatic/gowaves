@@ -12,7 +12,7 @@ import (
 	"github.com/valyala/bytebufferpool"
 	"go.uber.org/atomic"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const (

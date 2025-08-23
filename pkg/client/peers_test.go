@@ -5,9 +5,9 @@ import (
 	"net"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 func TestNewPeers(t *testing.T) {

@@ -17,12 +17,12 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/wavesplatform/gowaves/pkg/importer"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/settings"
-	"github.com/wavesplatform/gowaves/pkg/state"
-	"github.com/wavesplatform/gowaves/pkg/util/fdlimit"
-	"github.com/wavesplatform/gowaves/pkg/versioning"
+	"github.com/anonpragmatic/gowaves/pkg/importer"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/util/fdlimit"
+	"github.com/anonpragmatic/gowaves/pkg/versioning"
 )
 
 const (

@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	pb "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	"github.com/wavesplatform/gowaves/pkg/libs/serializer"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	pb "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	"github.com/anonpragmatic/gowaves/pkg/libs/serializer"
 )
 
 func TestGuessTransaction_Genesis(t *testing.T) {

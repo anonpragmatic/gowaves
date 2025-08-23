@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/errs"
-	"github.com/wavesplatform/gowaves/pkg/keyvalue"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/errs"
+	"github.com/anonpragmatic/gowaves/pkg/keyvalue"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 var errEmptyHist = errors.New("empty history for this record")

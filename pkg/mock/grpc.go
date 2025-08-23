@@ -8,9 +8,9 @@ import (
 	context "context"
 	reflect "reflect"
 
+	waves "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	grpc "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
 	gomock "github.com/golang/mock/gomock"
-	waves "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	grpc "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
 )

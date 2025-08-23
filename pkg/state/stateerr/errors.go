@@ -3,8 +3,8 @@ package stateerr
 import (
 	"errors"
 
-	"github.com/wavesplatform/gowaves/pkg/keyvalue"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/keyvalue"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type ErrorType byte

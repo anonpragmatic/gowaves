@@ -18,9 +18,9 @@ import (
 	"github.com/neilotoole/slogt"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/execution"
-	"github.com/wavesplatform/gowaves/pkg/networking"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/execution"
+	"github.com/anonpragmatic/gowaves/pkg/networking"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const (

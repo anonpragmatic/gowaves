@@ -7,9 +7,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	rideMath "github.com/wavesplatform/gowaves/pkg/ride/math"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	rideMath "github.com/anonpragmatic/gowaves/pkg/ride/math"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

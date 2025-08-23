@@ -47,7 +47,7 @@ wmd -db /var/lib/wmd/db/ -symbols /var/lib/wmd/symbols.txt
 ``` 
 
 Note that you have to create all the folders and give correct permissions on them. 
-The example of `symbols.txt` file could be found at [Github](https://github.com/wavesplatform/gowaves/blob/master/cmd/wmd/symbols.txt).
+The example of `symbols.txt` file could be found at [Github](https://github.com/anonpragmatic/gowaves/blob/master/cmd/wmd/symbols.txt).
 
 To quickly build the initial state of `wmd`, please, download the actual [blockchain file](http://blockchain.wavesnodes.com) 
 and execute the following command.

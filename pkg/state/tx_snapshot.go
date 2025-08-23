@@ -3,7 +3,7 @@ package state
 import (
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type snapshotApplierHooks interface {

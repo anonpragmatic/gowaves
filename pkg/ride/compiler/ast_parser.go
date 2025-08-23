@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 
 	"github.com/mr-tron/base58"
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	s "github.com/wavesplatform/gowaves/pkg/ride/compiler/stdlib"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	s "github.com/anonpragmatic/gowaves/pkg/ride/compiler/stdlib"
 )
 
 const (

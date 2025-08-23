@@ -3,7 +3,7 @@ package state_changed
 import (
 	"sync"
 
-	"github.com/wavesplatform/gowaves/pkg/types"
+	"github.com/anonpragmatic/gowaves/pkg/types"
 )
 
 type handlers []types.Handler

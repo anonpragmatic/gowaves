@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
 )
 
 func TestSignature_Selector(t *testing.T) {

@@ -1,7 +1,7 @@
 package byte_helpers
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type GetPeersMessageStruct struct {

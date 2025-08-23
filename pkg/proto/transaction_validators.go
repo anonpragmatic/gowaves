@@ -3,7 +3,7 @@ package proto
 import (
 	"fmt"
 
-	"github.com/wavesplatform/gowaves/pkg/errs"
+	"github.com/anonpragmatic/gowaves/pkg/errs"
 )
 
 func ValidatePositiveAmount(amount int64, of string) error {

@@ -3,9 +3,9 @@ package peer
 import (
 	"github.com/valyala/bytebufferpool"
 
-	"github.com/wavesplatform/gowaves/pkg/node/messages"
-	"github.com/wavesplatform/gowaves/pkg/p2p/conn"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/node/messages"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/conn"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const (

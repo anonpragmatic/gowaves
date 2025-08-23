@@ -7,8 +7,8 @@ import (
 	"github.com/ericlagergren/decimal"
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/math"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/ride/math"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 var (

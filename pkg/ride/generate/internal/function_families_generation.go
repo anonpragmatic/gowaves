@@ -10,8 +10,8 @@ func GenerateFunctionFamilies(fn string) {
 	cd.Import("crypto/sha256", "sh256")
 	cd.Import("crypto/x509")
 	cd.Import("github.com/pkg/errors")
-	cd.Import("github.com/wavesplatform/gowaves/pkg/crypto")
-	cd.Import("github.com/wavesplatform/gowaves/pkg/ride/crypto", "c2")
+	cd.Import("github.com/anonpragmatic/gowaves/pkg/crypto")
+	cd.Import("github.com/anonpragmatic/gowaves/pkg/ride/crypto", "c2")
 	cd.Import("github.com/consensys/gnark-crypto/ecc")
 	for _, l := range []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15} {
 		fn := fmt.Sprintf("bls12Groth16Verify_%d", l)

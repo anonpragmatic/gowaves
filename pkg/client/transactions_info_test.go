@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 func TestEthereumTransferTransactionInfo(t *testing.T) {

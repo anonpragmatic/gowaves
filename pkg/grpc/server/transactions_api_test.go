@@ -16,14 +16,14 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	pb "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
-	"github.com/wavesplatform/gowaves/pkg/libs/ntptime"
-	"github.com/wavesplatform/gowaves/pkg/miner/utxpool"
-	"github.com/wavesplatform/gowaves/pkg/mock"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	pb "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
+	"github.com/anonpragmatic/gowaves/pkg/libs/ntptime"
+	"github.com/anonpragmatic/gowaves/pkg/miner/utxpool"
+	"github.com/anonpragmatic/gowaves/pkg/mock"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
 )
 
 func TestGetTransactions(t *testing.T) {

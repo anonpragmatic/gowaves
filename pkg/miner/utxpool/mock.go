@@ -7,9 +7,9 @@ package utxpool
 import (
 	reflect "reflect"
 
+	proto "github.com/anonpragmatic/gowaves/pkg/proto"
+	state "github.com/anonpragmatic/gowaves/pkg/state"
 	gomock "github.com/golang/mock/gomock"
-	proto "github.com/wavesplatform/gowaves/pkg/proto"
-	state "github.com/wavesplatform/gowaves/pkg/state"
 )
 
 // MockstateWrapper is a mock of stateWrapper interface.

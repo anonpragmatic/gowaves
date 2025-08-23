@@ -7,7 +7,7 @@
 package blockchain_info
 
 import (
-	waves "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
+	waves "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -172,7 +172,7 @@ const file_blockchain_info_proto_rawDesc = "" +
 	"\vDataEntries\x18\x05 \x03(\v2\x10.waves.DataEntryR\vDataEntries\x12\x16\n" +
 	"\x06Height\x18\x01 \x01(\x04R\x06Height\x12\x18\n" +
 	"\aBlockID\x18\x02 \x01(\fR\aBlockID\x12\x1c\n" +
-	"\tTimestamp\x18\x03 \x01(\x03R\tTimestampB>Z<github.com/wavesplatform/gowaves/pkg/grpc/l2/blockchain_infob\x06proto3"
+	"\tTimestamp\x18\x03 \x01(\x03R\tTimestampB>Z<github.com/anonpragmatic/gowaves/pkg/grpc/l2/blockchain_infob\x06proto3"
 
 var (
 	file_blockchain_info_proto_rawDescOnce sync.Once

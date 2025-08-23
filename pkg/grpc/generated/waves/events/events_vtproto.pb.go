@@ -6,7 +6,7 @@ package events
 
 import (
 	fmt "fmt"
-	waves "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
+	waves "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
 	proto "google.golang.org/protobuf/proto"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	io "io"

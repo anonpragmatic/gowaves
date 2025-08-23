@@ -1,14 +1,14 @@
 package setscript
 
 import (
+	"github.com/anonpragmatic/gowaves/itests/config"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/itests/testdata"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
+	"github.com/anonpragmatic/gowaves/itests/utilities/transfer"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/itests/config"
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/itests/testdata"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
-	"github.com/wavesplatform/gowaves/itests/utilities/transfer"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 func NewSignedSetScriptTransaction(suite *f.BaseSuite, version byte, scheme proto.Scheme, senderPK crypto.PublicKey,

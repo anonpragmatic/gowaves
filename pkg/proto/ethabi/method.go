@@ -1,8 +1,8 @@
 package ethabi
 
 import (
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
 )
 
 type Method struct {

@@ -1,6 +1,6 @@
 package server
 
-import "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
+import "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
 
 type GrpcHandlers interface {
 	grpc.AccountsApiServer

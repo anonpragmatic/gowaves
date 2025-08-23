@@ -3,8 +3,8 @@ package client
 import (
 	"encoding/json"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 type EthereumTransactionType byte

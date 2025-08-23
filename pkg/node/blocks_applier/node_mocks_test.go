@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 func TestMockStateManager_ScoreAtHeight(t *testing.T) {

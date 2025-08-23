@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/compiler/stdlib"
+	"github.com/anonpragmatic/gowaves/pkg/ride/generate/internal/vinfo"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/ride/compiler/stdlib"
-	"github.com/wavesplatform/gowaves/pkg/ride/generate/internal/vinfo"
 )
 
 func constructorName(act actionsObject) string {

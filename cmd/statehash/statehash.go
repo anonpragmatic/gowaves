@@ -13,12 +13,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/wavesplatform/gowaves/pkg/client"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/settings"
-	"github.com/wavesplatform/gowaves/pkg/state"
-	"github.com/wavesplatform/gowaves/pkg/util/fdlimit"
+	"github.com/anonpragmatic/gowaves/pkg/client"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/util/fdlimit"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/pkg/errors"
 
-	apiErrs "github.com/wavesplatform/gowaves/pkg/api/errors"
-	"github.com/wavesplatform/gowaves/pkg/logging"
+	apiErrs "github.com/anonpragmatic/gowaves/pkg/api/errors"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
 )
 
 // internal node api errors

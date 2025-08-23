@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/generate/internal"
+	"github.com/anonpragmatic/gowaves/pkg/ride/generate/internal"
 )
 
 var (

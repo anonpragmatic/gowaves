@@ -16,8 +16,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/wavesplatform/gowaves/itests/config"
-	"github.com/wavesplatform/gowaves/pkg/client"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	"github.com/anonpragmatic/gowaves/pkg/client"
 )
 
 const (

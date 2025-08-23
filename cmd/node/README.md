@@ -36,7 +36,7 @@ To start a TestNet node use the command below.
 ## Running node on Linux
 
 The easiest way to run node on Linux is to install it from DEB package. 
-Download relevant DEB package from the [Releases](https://github.com/wavesplatform/gowaves/releases) page and install it with one of the following commands.
+Download relevant DEB package from the [Releases](https://github.com/anonpragmatic/gowaves/releases) page and install it with one of the following commands.
 
 ```bash
 sudo dpkg -i gowaves-mainnet-v0.10.0.deb

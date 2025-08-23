@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto/internal"
+	"github.com/anonpragmatic/gowaves/pkg/crypto/internal"
 )
 
 // This code is a port of the public domain, VXEdDSA C implementation by Trevor Perrin / Open Whisper Systems.

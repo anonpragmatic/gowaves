@@ -3,7 +3,7 @@ package api
 import (
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 func (a *App) Addresses() ([]string, error) {

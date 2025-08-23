@@ -3,10 +3,10 @@ package api
 import (
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/proto/ethabi"
-	"github.com/wavesplatform/gowaves/pkg/ride/serialization"
-	"github.com/wavesplatform/gowaves/pkg/state/stateerr"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto/ethabi"
+	"github.com/anonpragmatic/gowaves/pkg/ride/serialization"
+	"github.com/anonpragmatic/gowaves/pkg/state/stateerr"
 )
 
 func (a *App) EthereumDAppMethods(addr proto.WavesAddress) (ethabi.MethodsMap, error) {

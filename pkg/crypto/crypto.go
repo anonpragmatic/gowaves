@@ -12,9 +12,9 @@ import (
 
 	edwards "filippo.io/edwards25519"
 	"filippo.io/edwards25519/field"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 	"github.com/mr-tron/base58/base58"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/crypto/sha3"
 )

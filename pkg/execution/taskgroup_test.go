@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/wavesplatform/gowaves/pkg/execution"
+	"github.com/anonpragmatic/gowaves/pkg/execution"
 )
 
 func TestBasic(t *testing.T) {

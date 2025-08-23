@@ -3,7 +3,7 @@ package fsm
 import (
 	"errors"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 var TimeoutErr = proto.NewInfoMsg(errors.New("timeout"))

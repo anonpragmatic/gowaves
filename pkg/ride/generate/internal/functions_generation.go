@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 )
 
 func functionsV2() map[string]string {

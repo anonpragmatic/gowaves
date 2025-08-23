@@ -3,8 +3,8 @@ package proto
 import (
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/proto/ethabi"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/proto/ethabi"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 )
 
 type EthereumTransactionKindType byte

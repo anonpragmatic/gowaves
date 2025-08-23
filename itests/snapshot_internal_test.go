@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/wavesplatform/gowaves/itests/config"
-	"github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/pkg/consensus"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	"github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/pkg/consensus"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
 )
 
 type SimpleSnapshotSuite struct {

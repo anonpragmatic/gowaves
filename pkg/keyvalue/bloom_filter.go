@@ -12,7 +12,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/steakknife/bloomfilter"
 
-	"github.com/wavesplatform/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
 )
 
 type BloomFilter interface {

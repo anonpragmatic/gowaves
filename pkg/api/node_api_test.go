@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	apiErrs "github.com/wavesplatform/gowaves/pkg/api/errors"
-	"github.com/wavesplatform/gowaves/pkg/mock"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/services"
+	apiErrs "github.com/anonpragmatic/gowaves/pkg/api/errors"
+	"github.com/anonpragmatic/gowaves/pkg/mock"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/services"
 )
 
 const apiKey = "X-API-Key"

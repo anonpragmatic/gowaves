@@ -3,9 +3,9 @@ package scheduler
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/mock"
 )
 
 func TestMinerConsensus(t *testing.T) {

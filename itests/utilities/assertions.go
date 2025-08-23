@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
+	"github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
 )
 
 func makeErrorMessage(errMsg string, args ...any) string {

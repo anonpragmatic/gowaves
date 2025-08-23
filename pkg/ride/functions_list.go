@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/math"
+	"github.com/anonpragmatic/gowaves/pkg/ride/math"
 )
 
 const maxListSize = 1000

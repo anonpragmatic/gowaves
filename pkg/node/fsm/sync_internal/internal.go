@@ -3,10 +3,10 @@ package sync_internal
 import (
 	"errors"
 
-	"github.com/wavesplatform/gowaves/pkg/libs/ordered_blocks"
-	"github.com/wavesplatform/gowaves/pkg/libs/signatures"
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer/extension"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/libs/ordered_blocks"
+	"github.com/anonpragmatic/gowaves/pkg/libs/signatures"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer/extension"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type Blocks []*proto.Block

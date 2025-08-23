@@ -1,7 +1,7 @@
 package ride
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 )
 
 func invokeFunctionFromDApp(env environment, tree *ast.Tree, fnName rideString, listArgs rideList) (Result, error) {

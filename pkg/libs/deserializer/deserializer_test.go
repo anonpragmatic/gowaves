@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
 )
 
 func TestDeserializer_Byte(t *testing.T) {

@@ -3,8 +3,8 @@ package metamask
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto/ethabi"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/proto/ethabi"
 )
 
 func TestEthCallSelectors(t *testing.T) {

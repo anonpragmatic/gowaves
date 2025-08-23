@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 )
 
 var defaultTypes = mustLoadDefaultTypes()

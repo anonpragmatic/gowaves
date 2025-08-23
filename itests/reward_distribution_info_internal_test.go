@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/wavesplatform/gowaves/itests/utilities/reward"
+	"github.com/anonpragmatic/gowaves/itests/utilities/reward"
 
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/itests/testdata"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
-	"github.com/wavesplatform/gowaves/pkg/settings"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/itests/testdata"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
 )
 
 // "NODE-855. /blockchain/rewards returns correct values for term,

@@ -3,8 +3,8 @@ package state
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
 )
 
 func TestFeeDistributionSerialization(t *testing.T) {

@@ -1,8 +1,8 @@
 package state
 
 import (
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type patchesStorage struct {

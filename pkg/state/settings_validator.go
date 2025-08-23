@@ -3,7 +3,7 @@ package state
 import (
 	"errors"
 
-	"github.com/wavesplatform/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
 )
 
 func validateSettings(s *settings.BlockchainSettings) error {

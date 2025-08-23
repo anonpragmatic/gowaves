@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type IP [net.IPv6len]byte

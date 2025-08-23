@@ -3,7 +3,7 @@ package state
 import (
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/state/internal"
+	"github.com/anonpragmatic/gowaves/pkg/state/internal"
 )
 
 // balanceChanges is a full collection of changes for given key.

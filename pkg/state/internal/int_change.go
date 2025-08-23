@@ -3,7 +3,7 @@ package internal
 import (
 	"golang.org/x/exp/constraints"
 
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 type IntChange[T constraints.Integer] struct {

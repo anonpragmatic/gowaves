@@ -1,6 +1,6 @@
 package ride
 
-import "github.com/wavesplatform/gowaves/pkg/ride/ast"
+import "github.com/anonpragmatic/gowaves/pkg/ride/ast"
 
 func selectFunctionsByName(v ast.LibraryVersion, enableInvocation bool) (func(string) (rideFunction, bool), error) {
 	switch v {

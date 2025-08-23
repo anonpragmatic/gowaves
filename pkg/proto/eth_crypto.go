@@ -3,10 +3,10 @@ package proto
 import (
 	"math/big"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 	"github.com/btcsuite/btcd/btcec/v2"
 	btcECDSA "github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
 )
 
 var (

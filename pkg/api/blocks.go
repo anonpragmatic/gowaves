@@ -3,10 +3,10 @@ package api
 import (
 	"github.com/pkg/errors"
 
-	apiErrs "github.com/wavesplatform/gowaves/pkg/api/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/state/stateerr"
+	apiErrs "github.com/anonpragmatic/gowaves/pkg/api/errors"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/state/stateerr"
 )
 
 type Score struct {

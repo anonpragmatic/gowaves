@@ -1,6 +1,6 @@
 package ride
 
-import "github.com/wavesplatform/gowaves/pkg/proto"
+import "github.com/anonpragmatic/gowaves/pkg/proto"
 
 type Result interface {
 	Result() bool

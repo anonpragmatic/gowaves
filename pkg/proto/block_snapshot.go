@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
 )
 
 type BlockSnapshot struct {

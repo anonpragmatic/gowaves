@@ -1,8 +1,8 @@
 package compiler
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/ride/serialization"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/serialization"
 )
 
 //go:generate peg -output=parser.peg.go ride.peg

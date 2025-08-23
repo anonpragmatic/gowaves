@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/semrush/zenrpc/v2"
 
-	"github.com/wavesplatform/gowaves/pkg/api/metamask"
-	"github.com/wavesplatform/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/api/metamask"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
 )
 
 type HandleErrorFunc func(w http.ResponseWriter, r *http.Request, err error)

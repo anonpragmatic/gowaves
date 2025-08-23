@@ -1,8 +1,8 @@
 package testdata
 
 import (
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
 )
 
 func GetRewardDistributionAfterF14Before19TestData(

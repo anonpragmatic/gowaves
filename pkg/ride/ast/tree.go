@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 )
 
 type Node interface {

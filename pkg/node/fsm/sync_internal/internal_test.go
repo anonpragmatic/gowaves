@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/libs/ordered_blocks"
-	"github.com/wavesplatform/gowaves/pkg/libs/signatures"
-	. "github.com/wavesplatform/gowaves/pkg/node/fsm/sync_internal"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/libs/ordered_blocks"
+	"github.com/anonpragmatic/gowaves/pkg/libs/signatures"
+	. "github.com/anonpragmatic/gowaves/pkg/node/fsm/sync_internal"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type noopWrapper struct {

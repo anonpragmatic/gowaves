@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/itests/testdata"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
-	"github.com/wavesplatform/gowaves/itests/utilities/alias"
-	"github.com/wavesplatform/gowaves/itests/utilities/transfer"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/itests/testdata"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
+	"github.com/anonpragmatic/gowaves/itests/utilities/alias"
+	"github.com/anonpragmatic/gowaves/itests/utilities/transfer"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 )
 
 type AliasTxAPIPositiveSuite struct {

@@ -5,10 +5,10 @@ import (
 	"log/slog"
 	"net"
 
-	"github.com/wavesplatform/gowaves/cmd/retransmitter/retransmit/utils"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/cmd/retransmitter/retransmit/utils"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type BehaviourImpl struct {

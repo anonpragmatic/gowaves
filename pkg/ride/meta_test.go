@@ -4,10 +4,10 @@ import (
 	"encoding/base64"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
+	"github.com/anonpragmatic/gowaves/pkg/ride/serialization"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
-	"github.com/wavesplatform/gowaves/pkg/ride/serialization"
 )
 
 func fl(functions ...meta.Function) []meta.Function {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
 )
 
 type activePeers struct {

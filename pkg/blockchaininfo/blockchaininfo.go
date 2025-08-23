@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 const epochKeyPrefix = "epoch_"

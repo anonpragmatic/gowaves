@@ -8,7 +8,7 @@ package grpc
 
 import (
 	context "context"
-	waves "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
+	waves "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

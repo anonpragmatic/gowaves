@@ -1,6 +1,6 @@
 package state
 
-import "github.com/wavesplatform/gowaves/pkg/proto"
+import "github.com/anonpragmatic/gowaves/pkg/proto"
 
 //go:generate moq -out feautures_moq_test.go . featuresState:mockFeaturesState
 type featuresState interface {

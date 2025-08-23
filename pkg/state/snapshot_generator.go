@@ -7,10 +7,10 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/exp/constraints"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/state/internal"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/state/internal"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 type snapshotGenerator struct {

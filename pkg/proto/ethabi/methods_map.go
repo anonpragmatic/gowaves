@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
 )
 
 // DecodedCallData is an internal type to represent a method call parsed according

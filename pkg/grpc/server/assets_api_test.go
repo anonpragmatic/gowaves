@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/node/grpc"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/node/grpc"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 	protobuf "google.golang.org/protobuf/proto"
 )
 

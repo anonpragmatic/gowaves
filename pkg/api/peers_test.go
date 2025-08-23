@@ -7,14 +7,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/wavesplatform/gowaves/pkg/node/peers/storage"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/node/peers/storage"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/mock"
-	"github.com/wavesplatform/gowaves/pkg/services"
+	"github.com/anonpragmatic/gowaves/pkg/mock"
+	"github.com/anonpragmatic/gowaves/pkg/services"
 )
 
 func TestApp_PeersKnown(t *testing.T) {

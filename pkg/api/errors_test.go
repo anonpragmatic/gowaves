@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	apiErrs "github.com/wavesplatform/gowaves/pkg/api/errors"
+	apiErrs "github.com/anonpragmatic/gowaves/pkg/api/errors"
 )
 
 func TestErrorHandler_Handle(t *testing.T) {

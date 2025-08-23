@@ -8,12 +8,12 @@ import (
 	big "math/big"
 	reflect "reflect"
 
+	crypto "github.com/anonpragmatic/gowaves/pkg/crypto"
+	proto "github.com/anonpragmatic/gowaves/pkg/proto"
+	ast "github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	settings "github.com/anonpragmatic/gowaves/pkg/settings"
+	state "github.com/anonpragmatic/gowaves/pkg/state"
 	gomock "github.com/golang/mock/gomock"
-	crypto "github.com/wavesplatform/gowaves/pkg/crypto"
-	proto "github.com/wavesplatform/gowaves/pkg/proto"
-	ast "github.com/wavesplatform/gowaves/pkg/ride/ast"
-	settings "github.com/wavesplatform/gowaves/pkg/settings"
-	state "github.com/wavesplatform/gowaves/pkg/state"
 )
 
 // MockTransactionIterator is a mock of TransactionIterator interface.

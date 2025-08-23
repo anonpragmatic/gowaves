@@ -1,6 +1,6 @@
 package state
 
-import "github.com/wavesplatform/gowaves/pkg/proto"
+import "github.com/anonpragmatic/gowaves/pkg/proto"
 
 // Prefixes for batched storage (batched_storage.go).
 const (

@@ -11,8 +11,8 @@ import (
 	gnarkLog "github.com/consensys/gnark/logger"
 	"github.com/pkg/errors"
 
-	bls12381 "github.com/wavesplatform/gowaves/pkg/crypto/internal/groth16/bls12_381"
-	"github.com/wavesplatform/gowaves/pkg/crypto/internal/groth16/bn256"
+	bls12381 "github.com/anonpragmatic/gowaves/pkg/crypto/internal/groth16/bls12_381"
+	"github.com/anonpragmatic/gowaves/pkg/crypto/internal/groth16/bn256"
 )
 
 const (

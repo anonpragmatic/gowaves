@@ -7,9 +7,9 @@ package blockchaininfo
 import (
 	"context"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/nats-io/nats.go"
 	mock "github.com/stretchr/testify/mock"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 // NewMockUpdatesPublisherInterface creates a new instance of MockUpdatesPublisherInterface. It also registers a testing interface on the mock and a cleanup function to assert the mocks expectations.

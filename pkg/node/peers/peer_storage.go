@@ -3,7 +3,7 @@ package peers
 import (
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/node/peers/storage"
+	"github.com/anonpragmatic/gowaves/pkg/node/peers/storage"
 )
 
 type PeerStorage interface {

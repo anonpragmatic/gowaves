@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 )
 
 type actionField struct {

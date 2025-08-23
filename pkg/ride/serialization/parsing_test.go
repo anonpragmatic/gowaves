@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
 )
 
 func TestErrors(t *testing.T) {

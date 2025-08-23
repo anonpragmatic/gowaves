@@ -115,25 +115,25 @@ dist-blockcmp: release-blockcmp
 	@cd ./build/bin/darwin-arm64/; tar pzcvf ../../dist/blockcmp_$(VERSION)_macOS-arm64.tar.gz ./blockcmp*
 
 build-node-native:
-	@go build -o build/bin/native/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@go build -o build/bin/native/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-native-with-race:
-	@go build -race -o build/bin/native/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@go build -race -o build/bin/native/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-linux-amd64:
-	@CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o build/bin/linux-amd64/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o build/bin/linux-amd64/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-linux-amd64-with-race:
-	@CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -race -o build/bin/linux-amd64/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -race -o build/bin/linux-amd64/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-linux-i386:
-	@CGO_ENABLED=0 GOOS=linux GOARCH=386 go build -o build/bin/linux-i386/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=0 GOOS=linux GOARCH=386 go build -o build/bin/linux-i386/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-linux-arm:
-	@CGO_ENABLED=0 GOOS=linux GOARCH=arm go build -o build/bin/linux-arm/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=0 GOOS=linux GOARCH=arm go build -o build/bin/linux-arm/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-linux-arm64:
-	@CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build -o build/bin/linux-arm64/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build -o build/bin/linux-arm64/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-darwin-amd64:
-	@CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o build/bin/darwin-amd64/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o build/bin/darwin-amd64/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-darwin-arm64:
-	@CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -o build/bin/darwin-arm64/node -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -o build/bin/darwin-arm64/node -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 build-node-windows-amd64:
-	@CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o build/bin/windows-amd64/node.exe -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
+	@CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o build/bin/windows-amd64/node.exe -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/node
 
 release-node: ver build-node-linux-amd64 build-node-linux-i386 build-node-linux-arm64 build-node-linux-arm build-node-darwin-amd64 build-node-darwin-arm64 build-node-windows-amd64
 
@@ -146,15 +146,15 @@ dist-node: release-node build-node-mainnet-amd64-deb-package build-node-mainnet-
 	@cd ./build/bin/darwin-arm64/; tar pzcvf ../../dist/node_$(VERSION)_macOS-arm64.tar.gz ./node*
 
 build-importer-native:
-	@go build -pgo=importer.pgo -o build/bin/native/importer -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
+	@go build -pgo=importer.pgo -o build/bin/native/importer -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
 build-importer-linux:
-	@CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -pgo=importer.pgo -o build/bin/linux-amd64/importer -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
+	@CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -pgo=importer.pgo -o build/bin/linux-amd64/importer -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
 build-importer-darwin-amd64:
-	@CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -pgo=importer.pgo -o build/bin/darwin-amd64/importer -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
+	@CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -pgo=importer.pgo -o build/bin/darwin-amd64/importer -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
 build-importer-darwin-arm64:
-	@CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -pgo=importer.pgo -o build/bin/darwin-arm64/importer -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
+	@CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -pgo=importer.pgo -o build/bin/darwin-arm64/importer -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
 build-importer-windows:
-	@CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -pgo=importer.pgo -o build/bin/windows-amd64/importer.exe -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
+	@CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -pgo=importer.pgo -o build/bin/windows-amd64/importer.exe -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/importer
 
 release-importer: ver build-importer-linux build-importer-darwin-amd64 build-importer-darwin-arm64 build-importer-windows
 
@@ -186,15 +186,15 @@ dist-wallet: release-wallet
 	@cd ./build/bin/darwin-arm64/; tar pzcvf ../../dist/wallet_$(VERSION)_macOS-arm64.tar.gz ./wallet*
 
 build-rollback-native:
-	@go build -o build/bin/native/rollback -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
+	@go build -o build/bin/native/rollback -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
 build-rollback-linux:
-	@CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o build/bin/linux-amd64/rollback -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
+	@CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o build/bin/linux-amd64/rollback -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
 build-rollback-darwin-amd64:
-	@CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o build/bin/darwin-amd64/rollback -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
+	@CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o build/bin/darwin-amd64/rollback -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
 build-rollback-darwin-arm64:
-	@CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -o build/bin/darwin-arm64/rollback -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
+	@CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -o build/bin/darwin-arm64/rollback -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
 build-rollback-windows:
-	@CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o build/bin/windows-amd64/rollback.exe -ldflags="-X 'github.com/wavesplatform/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
+	@CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -o build/bin/windows-amd64/rollback.exe -ldflags="-X 'github.com/anonpragmatic/gowaves/pkg/versioning.Version=$(VERSION)'" ./cmd/rollback
 
 release-rollback: ver build-rollback-linux build-rollback-darwin-amd64 build-rollback-darwin-arm64 build-rollback-windows
 

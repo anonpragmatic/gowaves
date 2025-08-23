@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	"github.com/wavesplatform/gowaves/pkg/ride/compiler/stdlib"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	"github.com/anonpragmatic/gowaves/pkg/ride/compiler/stdlib"
 )
 
 func removeVersionFromString(name string) string {

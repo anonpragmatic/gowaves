@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/blockchaininfo"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/wavesplatform/gowaves/pkg/blockchaininfo"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 // some random test data.

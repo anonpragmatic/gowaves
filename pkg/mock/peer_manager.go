@@ -10,10 +10,10 @@ import (
 	reflect "reflect"
 	time "time"
 
+	storage "github.com/anonpragmatic/gowaves/pkg/node/peers/storage"
+	peer "github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	proto "github.com/anonpragmatic/gowaves/pkg/proto"
 	gomock "github.com/golang/mock/gomock"
-	storage "github.com/wavesplatform/gowaves/pkg/node/peers/storage"
-	peer "github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	proto "github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 // MockPeerManager is a mock of PeerManager interface.

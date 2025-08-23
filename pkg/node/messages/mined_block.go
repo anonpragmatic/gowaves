@@ -1,8 +1,8 @@
 package messages
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 )
 
 type MinedBlockInternalMessage struct {

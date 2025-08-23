@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ridec "github.com/wavesplatform/gowaves/pkg/ride/compiler"
-	"github.com/wavesplatform/gowaves/pkg/ride/serialization"
+	ridec "github.com/anonpragmatic/gowaves/pkg/ride/compiler"
+	"github.com/anonpragmatic/gowaves/pkg/ride/serialization"
 )
 
 func TestEstimatorCommon(t *testing.T) {

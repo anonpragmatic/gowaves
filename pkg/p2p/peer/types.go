@@ -3,7 +3,7 @@ package peer
 import (
 	"fmt"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type Connected struct {

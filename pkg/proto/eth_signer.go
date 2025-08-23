@@ -4,11 +4,11 @@ import (
 	"crypto/ecdsa"
 	"math/big"
 
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/mr-tron/base58/base58"
 	"github.com/pkg/errors"
 	"github.com/umbracle/fastrlp"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

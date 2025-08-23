@@ -6,12 +6,12 @@ import (
 	"net"
 	"slices"
 
-	"github.com/wavesplatform/gowaves/pkg/node/messages"
-	"github.com/wavesplatform/gowaves/pkg/p2p/conn"
-	"github.com/wavesplatform/gowaves/pkg/p2p/incoming"
-	"github.com/wavesplatform/gowaves/pkg/p2p/outgoing"
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/node/messages"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/conn"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/incoming"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/outgoing"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type DuplicateChecker interface {

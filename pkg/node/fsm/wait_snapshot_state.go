@@ -8,11 +8,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/qmuntal/stateless"
 
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/metrics"
-	"github.com/wavesplatform/gowaves/pkg/node/fsm/tasks"
-	"github.com/wavesplatform/gowaves/pkg/p2p/peer"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/metrics"
+	"github.com/anonpragmatic/gowaves/pkg/node/fsm/tasks"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/peer"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const (

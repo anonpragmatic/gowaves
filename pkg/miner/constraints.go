@@ -1,7 +1,7 @@
 package miner
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/state"
 )
 
 type Constraints struct {

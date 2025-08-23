@@ -4,8 +4,8 @@
 package peer
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/p2p/conn"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/conn"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"sync"
 )
 

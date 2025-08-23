@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/qmuntal/stateless"
 
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 type HaltState struct {

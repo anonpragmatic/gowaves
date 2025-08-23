@@ -7,7 +7,7 @@
 package grpc
 
 import (
-	events "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves/events"
+	events "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves/events"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

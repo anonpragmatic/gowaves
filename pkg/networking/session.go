@@ -16,8 +16,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/execution"
-	"github.com/wavesplatform/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/execution"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
 )
 
 // Session is used to wrap a reliable ordered connection.

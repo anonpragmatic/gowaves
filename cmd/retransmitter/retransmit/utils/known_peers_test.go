@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/cmd/retransmitter/retransmit/utils"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/cmd/retransmitter/retransmit/utils"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 func TestKnownPeers(t *testing.T) {

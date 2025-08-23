@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/p2p/mock"
+	"github.com/anonpragmatic/gowaves/pkg/p2p/mock"
 )
 
 func genFakeAddr() string {

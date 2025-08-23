@@ -1,9 +1,9 @@
 package ng
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/types"
-	"github.com/wavesplatform/gowaves/pkg/util/fifo_cache"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/types"
+	"github.com/anonpragmatic/gowaves/pkg/util/fifo_cache"
 )
 
 // store only inv signatures to cache non requested

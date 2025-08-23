@@ -3,9 +3,9 @@ package state
 import (
 	"encoding/binary"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/mr-tron/base58"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 const (

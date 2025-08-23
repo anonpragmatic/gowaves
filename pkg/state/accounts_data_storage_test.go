@@ -3,8 +3,8 @@ package state
 import (
 	"testing"
 
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 	"github.com/stretchr/testify/assert"
-	"github.com/wavesplatform/gowaves/pkg/proto"
 )
 
 type accountsDataStorageTestObjects struct {

@@ -3,7 +3,7 @@ package state
 import (
 	"encoding/binary"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 )
 
 const (

@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
 )
 
 type Scheduler struct {

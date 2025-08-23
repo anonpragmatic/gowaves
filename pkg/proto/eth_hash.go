@@ -1,10 +1,10 @@
 package proto
 
 import (
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 	"github.com/pkg/errors"
 	"github.com/umbracle/fastrlp"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
 )
 
 const (

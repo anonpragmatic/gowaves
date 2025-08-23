@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/ride/ast"
-	ridec "github.com/wavesplatform/gowaves/pkg/ride/compiler"
-	"github.com/wavesplatform/gowaves/pkg/util/byte_helpers"
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/ride/ast"
+	ridec "github.com/anonpragmatic/gowaves/pkg/ride/compiler"
+	"github.com/anonpragmatic/gowaves/pkg/util/byte_helpers"
 )
 
 func TestSimpleScriptEvaluation(t *testing.T) {

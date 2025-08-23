@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"io"
 
+	"github.com/anonpragmatic/gowaves/pkg/ride/meta"
+	g "github.com/anonpragmatic/gowaves/pkg/ride/meta/generated"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/ride/meta"
-	g "github.com/wavesplatform/gowaves/pkg/ride/meta/generated"
 )
 
 func newParserV1(r *bytes.Reader, id [32]byte, header scriptHeader) *parser {

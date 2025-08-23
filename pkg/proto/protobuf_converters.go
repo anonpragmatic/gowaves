@@ -1,10 +1,10 @@
 package proto
 
 import (
+	"github.com/anonpragmatic/gowaves/pkg/crypto"
+	g "github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
 	"github.com/ccoveille/go-safecast"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/crypto"
-	g "github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
 )
 
 type vtStrictMarshaler interface {

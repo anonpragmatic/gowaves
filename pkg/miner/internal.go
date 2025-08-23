@@ -1,7 +1,7 @@
 package miner
 
 import (
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 func MineBlock(version proto.BlockVersion, nxt proto.NxtConsensus, pair proto.KeyPair, validatedFeatured Features, t proto.Timestamp, parent proto.BlockID, reward int64, scheme proto.Scheme) (*proto.Block, error) {

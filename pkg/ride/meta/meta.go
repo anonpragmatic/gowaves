@@ -1,8 +1,8 @@
 package meta
 
 import (
+	g "github.com/anonpragmatic/gowaves/pkg/ride/meta/generated"
 	"github.com/pkg/errors"
-	g "github.com/wavesplatform/gowaves/pkg/ride/meta/generated"
 )
 
 // Type interface represents all type descriptors that can be encoded in Meta.

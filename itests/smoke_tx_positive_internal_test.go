@@ -9,18 +9,18 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/wavesplatform/gowaves/itests/config"
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	"github.com/wavesplatform/gowaves/itests/testdata"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
-	"github.com/wavesplatform/gowaves/itests/utilities/alias"
-	"github.com/wavesplatform/gowaves/itests/utilities/burn"
-	"github.com/wavesplatform/gowaves/itests/utilities/issue"
-	"github.com/wavesplatform/gowaves/itests/utilities/reissue"
-	"github.com/wavesplatform/gowaves/itests/utilities/setassetscript"
-	"github.com/wavesplatform/gowaves/itests/utilities/sponsorship"
-	"github.com/wavesplatform/gowaves/itests/utilities/transfer"
-	"github.com/wavesplatform/gowaves/itests/utilities/updateassetinfo"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	"github.com/anonpragmatic/gowaves/itests/testdata"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
+	"github.com/anonpragmatic/gowaves/itests/utilities/alias"
+	"github.com/anonpragmatic/gowaves/itests/utilities/burn"
+	"github.com/anonpragmatic/gowaves/itests/utilities/issue"
+	"github.com/anonpragmatic/gowaves/itests/utilities/reissue"
+	"github.com/anonpragmatic/gowaves/itests/utilities/setassetscript"
+	"github.com/anonpragmatic/gowaves/itests/utilities/sponsorship"
+	"github.com/anonpragmatic/gowaves/itests/utilities/transfer"
+	"github.com/anonpragmatic/gowaves/itests/utilities/updateassetinfo"
 )
 
 type SmokeTxPositiveSuite struct {

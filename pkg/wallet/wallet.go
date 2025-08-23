@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
 )
 
 const curVersion = 1

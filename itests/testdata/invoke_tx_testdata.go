@@ -1,11 +1,11 @@
 package testdata
 
 import (
-	"github.com/wavesplatform/gowaves/itests/config"
-	f "github.com/wavesplatform/gowaves/itests/fixtures"
-	utl "github.com/wavesplatform/gowaves/itests/utilities"
-	"github.com/wavesplatform/gowaves/pkg/grpc/generated/waves"
-	"github.com/wavesplatform/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/itests/config"
+	f "github.com/anonpragmatic/gowaves/itests/fixtures"
+	utl "github.com/anonpragmatic/gowaves/itests/utilities"
+	"github.com/anonpragmatic/gowaves/pkg/grpc/generated/waves"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
 )
 
 const (

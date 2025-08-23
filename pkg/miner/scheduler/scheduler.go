@@ -5,18 +5,18 @@ import (
 	"sync"
 	"time"
 
+	"github.com/anonpragmatic/gowaves/pkg/consensus"
+	"github.com/anonpragmatic/gowaves/pkg/logging"
+	"github.com/anonpragmatic/gowaves/pkg/proto"
+	"github.com/anonpragmatic/gowaves/pkg/settings"
+	"github.com/anonpragmatic/gowaves/pkg/state"
+	"github.com/anonpragmatic/gowaves/pkg/types"
+	"github.com/anonpragmatic/gowaves/pkg/util/cancellable"
+	"github.com/anonpragmatic/gowaves/pkg/util/common"
+	"github.com/anonpragmatic/gowaves/pkg/wallet"
 	"github.com/ccoveille/go-safecast"
 	"github.com/mr-tron/base58"
 	"github.com/pkg/errors"
-	"github.com/wavesplatform/gowaves/pkg/consensus"
-	"github.com/wavesplatform/gowaves/pkg/logging"
-	"github.com/wavesplatform/gowaves/pkg/proto"
-	"github.com/wavesplatform/gowaves/pkg/settings"
-	"github.com/wavesplatform/gowaves/pkg/state"
-	"github.com/wavesplatform/gowaves/pkg/types"
-	"github.com/wavesplatform/gowaves/pkg/util/cancellable"
-	"github.com/wavesplatform/gowaves/pkg/util/common"
-	"github.com/wavesplatform/gowaves/pkg/wallet"
 )
 
 type Emit struct {

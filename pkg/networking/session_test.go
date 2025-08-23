@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/wavesplatform/gowaves/pkg/networking"
+	"github.com/anonpragmatic/gowaves/pkg/networking"
 )
 
 const (

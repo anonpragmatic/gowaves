@@ -1,6 +1,6 @@
 package vinfo
 
-import "github.com/wavesplatform/gowaves/pkg/ride/ast"
+import "github.com/anonpragmatic/gowaves/pkg/ride/ast"
 
 type ConstructorStructInfo struct {
 	RideName   string
