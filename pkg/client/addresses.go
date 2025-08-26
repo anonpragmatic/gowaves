@@ -139,12 +139,11 @@ type AddressesValidate struct {
 
 // Validate checks whether address is valid or not
 func (a *Addresses) Validate(ctx context.Context, address proto.WavesAddress) (*AddressesValidate, *Response, error) {
-	// u, err := joinUrl(, fmt.Sprintf("/addresses/validate/%s", address.String()))
-	// if err != nil {
-	// 	return nil, nil, err
-	// }
-	u := a.options.BaseUrl + fmt.Sprintf("/addresses/validate/%s", address.String())
-	req, err := http.NewRequest("GET", u, nil)
+	u, err := joinUrl(a.options.BaseUrl, fmt.Sprintf("/addresses/validate/%s", address.String()))
+	if err != nil {
+		return nil, nil, err
+	}
+	req, err := http.NewRequest("GET", u.String(), nil)
 	if err != nil {
 		return nil, nil, err
 	}
@@ -295,12 +294,14 @@ func (a *Addresses) AddressesData(ctx context.Context, address proto.WavesAddres
 
 // AddressesDataKey returns data entry for given address and key
 func (a *Addresses) AddressesDataKey(ctx context.Context, address proto.WavesAddress, key string) (proto.DataEntry, *Response, error) {
-	u, err := joinUrl(a.options.BaseUrl, fmt.Sprintf("/addresses/data/%s/%s", address.String(), key))
-	if err != nil {
-		return nil, nil, err
-	}
+	// u, err := joinUrl(a.options.BaseUrl, fmt.Sprintf("/addresses/data/%s/%s", address.String(), key))
+	// if err != nil {
+	// 	return nil, nil, err
+	// }
 
-	req, err := http.NewRequest("GET", u.String(), nil)
+	u := a.options.BaseUrl + fmt.Sprintf("/addresses/data/%s/%s", address.String(), key)
+
+	req, err := http.NewRequest("GET", u, nil)
 	if err != nil {
 		return nil, nil, err
 	}
