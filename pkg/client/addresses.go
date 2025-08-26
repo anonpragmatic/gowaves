@@ -294,14 +294,12 @@ func (a *Addresses) AddressesData(ctx context.Context, address proto.WavesAddres
 
 // AddressesDataKey returns data entry for given address and key
 func (a *Addresses) AddressesDataKey(ctx context.Context, address proto.WavesAddress, key string) (proto.DataEntry, *Response, error) {
-	// u, err := joinUrl(a.options.BaseUrl, fmt.Sprintf("/addresses/data/%s/%s", address.String(), key))
-	// if err != nil {
-	// 	return nil, nil, err
-	// }
+	u, err := joinUrl(a.options.BaseUrl, fmt.Sprintf("/addresses/data/%s/%s", address.String(), url.QueryEscape(key)))
+	if err != nil {
+		return nil, nil, err
+	}
 
-	u := a.options.BaseUrl + fmt.Sprintf("/addresses/data/%s/%s", address.String(), key)
-
-	req, err := http.NewRequest("GET", u, nil)
+	req, err := http.NewRequest("GET", u.String(), nil)
 	if err != nil {
 		return nil, nil, err
 	}
