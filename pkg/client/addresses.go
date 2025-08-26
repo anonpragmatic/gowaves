@@ -144,7 +144,7 @@ func (a *Addresses) Validate(ctx context.Context, address proto.WavesAddress) (*
 	// 	return nil, nil, err
 	// }
 	u := a.options.BaseUrl + fmt.Sprintf("/addresses/validate/%s", address.String())
-	req, err := http.NewRequest("GET", u.String(), nil)
+	req, err := http.NewRequest("GET", u, nil)
 	if err != nil {
 		return nil, nil, err
 	}
