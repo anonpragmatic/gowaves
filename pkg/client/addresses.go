@@ -139,10 +139,11 @@ type AddressesValidate struct {
 
 // Validate checks whether address is valid or not
 func (a *Addresses) Validate(ctx context.Context, address proto.WavesAddress) (*AddressesValidate, *Response, error) {
-	u, err := joinUrl(a.options.BaseUrl, fmt.Sprintf("/addresses/validate/%s", address.String()))
-	if err != nil {
-		return nil, nil, err
-	}
+	// u, err := joinUrl(, fmt.Sprintf("/addresses/validate/%s", address.String()))
+	// if err != nil {
+	// 	return nil, nil, err
+	// }
+	u := a.options.BaseUrl + fmt.Sprintf("/addresses/validate/%s", address.String())
 	req, err := http.NewRequest("GET", u.String(), nil)
 	if err != nil {
 		return nil, nil, err
